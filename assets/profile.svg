@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <!-- Background Circle -->
+  <circle cx="300" cy="300" r="300" fill="#121212"/>
+  
+  <!-- Abstract Background Elements -->
+  <path d="M150,150 Q300,50 450,150 T600,300 Q550,450 450,500 T200,550 Q50,500 50,350 T150,150" fill="#1e1e1e"/>
+  
+  <!-- Glowing Effect -->
+  <circle cx="300" cy="300" r="280" fill="none" stroke="#6c5ce7" stroke-width="5" stroke-opacity="0.3"/>
+  <circle cx="300" cy="300" r="260" fill="none" stroke="#6c5ce7" stroke-width="3" stroke-opacity="0.2"/>
+  
+  <!-- Abstract Portrait Silhouette -->
+  <circle cx="300" cy="240" r="100" fill="#2d2d2d"/>
+  <path d="M200,350 Q300,500 400,350 Q385,400 300,420 Q215,400 200,350" fill="#2d2d2d"/>
+  
+  <!-- Tech Elements -->
+  <circle cx="180" cy="200" r="15" fill="#a29bfe"/>
+  <circle cx="420" cy="200" r="15" fill="#a29bfe"/>
+  
+  <!-- Code Elements -->
+  <rect x="220" y="100" width="40" height="8" rx="4" fill="#fd79a8" opacity="0.8"/>
+  <rect x="270" y="100" width="60" height="8" rx="4" fill="#6c5ce7" opacity="0.8"/>
+  <rect x="340" y="100" width="30" height="8" rx="4" fill="#a29bfe" opacity="0.8"/>
+  
+  <rect x="190" y="120" width="50" height="8" rx="4" fill="#6c5ce7" opacity="0.7"/>
+  <rect x="250" y="120" width="30" height="8" rx="4" fill="#fd79a8" opacity="0.7"/>
+  <rect x="290" y="120" width="70" height="8" rx="4" fill="#a29bfe" opacity="0.7"/>
+  <rect x="370" y="120" width="40" height="8" rx="4" fill="#6c5ce7" opacity="0.7"/>
+  
+  <rect x="150" y="480" width="30" height="8" rx="4" fill="#fd79a8" opacity="0.6"/>
+  <rect x="190" y="480" width="70" height="8" rx="4" fill="#6c5ce7" opacity="0.6"/>
+  <rect x="270" y="480" width="40" height="8" rx="4" fill="#a29bfe" opacity="0.6"/>
+  
+  <rect x="180" y="500" width="60" height="8" rx="4" fill="#6c5ce7" opacity="0.5"/>
+  <rect x="250" y="500" width="40" height="8" rx="4" fill="#fd79a8" opacity="0.5"/>
+  <rect x="300" y="500" width="80" height="8" rx="4" fill="#a29bfe" opacity="0.5"/>
+  <rect x="390" y="500" width="30" height="8" rx="4" fill="#6c5ce7" opacity="0.5"/>
+  
+  <!-- Circuit Pattern -->
+  <line x1="150" y1="400" x2="200" y2="400" stroke="#6c5ce7" stroke-width="2" opacity="0.6"/>
+  <line x1="200" y1="400" x2="200" y2="450" stroke="#6c5ce7" stroke-width="2" opacity="0.6"/>
+  <line x1="200" y1="450" x2="250" y2="450" stroke="#6c5ce7" stroke-width="2" opacity="0.6"/>
+  <circle cx="150" cy="400" r="5" fill="#fd79a8"/>
+  <circle cx="200" cy="400" r="5" fill="#a29bfe"/>
+  <circle cx="200" cy="450" r="5" fill="#a29bfe"/>
+  <circle cx="250" cy="450" r="5" fill="#fd79a8"/>
+  
+  <line x1="450" y1="400" x2="400" y2="400" stroke="#6c5ce7" stroke-width="2" opacity="0.6"/>
+  <line x1="400" y1="400" x2="400" y2="450" stroke="#6c5ce7" stroke-width="2" opacity="0.6"/>
+  <line x1="400" y1="450" x2="350" y2="450" stroke="#6c5ce7" stroke-width="2" opacity="0.6"/>
+  <circle cx="450" cy="400" r="5" fill="#fd79a8"/>
+  <circle cx="400" cy="400" r="5" fill="#a29bfe"/>
+  <circle cx="400" cy="450" r="5" fill="#a29bfe"/>
+  <circle cx="350" cy="450" r="5" fill="#fd79a8"/>
+  
+  <!-- Initials -->
+  <text x="300" y="260" font-family="Arial, sans-serif" font-size="80" font-weight="bold" text-anchor="middle" fill="#f8f9fa">SF</text>
+</svg>
