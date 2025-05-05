@@ -278,8 +278,18 @@ button {
 }
 
 .nav-menu {
-    display: flex;
-    gap: var(--spacing-md);
+    display: flex;            /* Keep using Flexbox */
+    justify-content: center;  /* Center the navigation items horizontally */
+    align-items: center;     /* Vertically align items (matches parent .navbar) */
+    flex-wrap: nowrap;       /* Prevent items from wrapping to a new line */
+    gap: var(--spacing-md);   /* Keep your defined gap between items */
+    list-style: none;      /* Ensure no bullet points */
+    padding: 0;            /* Remove default padding */
+    margin: 0;             /* Remove default margin */
+    overflow-x: auto;      /* Add a horizontal scrollbar *only* if items overflow */
+                            /* Remove this line if you prefer items get cut off */
+    white-space: nowrap;   /* Prevent text within links from wrapping */
+    /* width: 100%; */     /* Usually not needed here, parent handles width */
 }
 
 .nav-link {
