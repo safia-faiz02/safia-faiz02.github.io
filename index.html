@@ -20,22 +20,111 @@
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Reset styles */
+        
+{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;}
+      body {
+          font-family: 'Arial', sans-serif;
+          line-height: 1.6;}
+      .container {
+          width: 100%;
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 0 20px;}
+      /* Header styles */
+      .header {
+          background-color: #333;
+          padding: 20px 0;
+          position: fixed;
+          width: 100%;
+          top: 0;
+          z-index: 1000;
+      }
+
+      /* Navbar styles */
+      .navbar {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+
+      .nav-menu {
+          display: flex;
+          justify-content: center;
+          list-style: none;
+          width: 100%;
+          flex-wrap: wrap;
+      }
+
+      .nav-menu li {
+          margin: 0 10px;
+      }
+
+      .nav-link {
+          color: white;
+          text-decoration: none;
+          padding: 8px 15px;
+          border-radius: 4px;
+          transition: background-color 0.3s;
+      }
+
+      .nav-link:hover {
+          background-color: #555;
+      }
+
+      .nav-link.active {
+          background-color: #007bff;
+      }
+
+      /* Hamburger menu for mobile */
+      .nav-toggle {
+          display: none;
+          cursor: pointer;
+      }
+
+      .bar {
+          display: block;
+          width: 25px;
+          height: 3px;
+          margin: 5px auto;
+          background-color: white;
+      }
+
+      /* Responsive design */
+      @media screen and (max-width: 768px) {.nav-toggle {
+              display: block;}
+          .nav-menu {
+              position: fixed;
+              left: -100%;
+              top: 60px;
+              flex-direction: column;
+              background-color: #333;
+              width: 100%;
+              text-align: center;
+              transition: 0.3s;
+              box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);}
+          .nav-menu.active {
+              left: 0;}
+          .nav-menu li {
+              margin: 15px 0;}}</style>
 </head>
 <body>
-    
+
     <!-- Header -->
     <header id="header" class="header">
         <div class="container">
             <nav class="navbar">
-                <div class="logo">
-                    <a href="#home">SF</a>
-                </div>
                 <div class="nav-toggle" id="navToggle">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
                 </div>
                 <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
                     <li><a href="#education" class="nav-link">Education</a></li>
                     <li><a href="#experience" class="nav-link">Experience</a></li>
                     <li><a href="#achievements" class="nav-link">Achievements</a></li>
