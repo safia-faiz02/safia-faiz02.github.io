@@ -32,7 +32,12 @@ document.addEventListener('DOMContentLoaded', () => {
     syncIcon();
 
     /* Header border on scroll */
-    const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 10);
+    const toTop = document.getElementById('backToTop');
+    toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    const onScroll = () => {
+        header.classList.toggle('scrolled', window.scrollY > 10);
+        toTop.classList.toggle('show', window.scrollY > 500);
+    };
     onScroll();
     window.addEventListener('scroll', onScroll, { passive: true });
 
