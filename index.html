@@ -3,716 +3,580 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Safia Faiz - Computer Systems Engineer Portfolio">
-    <meta name="keywords" content="Safia Faiz, Portfolio, Computer Systems Engineer, Hardware Engineer">
+    <title>Safia Faiz | AI Engineer & Researcher</title>
+    <meta name="description" content="Safia Faiz — AI Engineer and researcher building voice-first AI systems, multi-agent LLM pipelines, and deep learning for accessibility and robotics. NED University, CGPA 3.83.">
     <meta name="author" content="Safia Faiz">
-    
-    <title>Safia Faiz | Portfolio</title>
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%234a4a4a%22></rect><path fill=%22%23fff%22 d=%22M30.12 55.43L30.12 44.26L48.96 44.26Q49.98 44.26 50.64 44.93Q51.30 45.60 51.30 46.60L51.30 55.43Q51.30 56.43 50.64 57.09Q49.98 57.76 48.96 57.76L32.46 57.76Q31.44 57.76 30.78 57.09Q30.12 56.43 30.12 55.43ZM34.79 53.09L46.64 53.09L46.64 48.93L34.79 48.93L34.79 53.09ZM69.88 55.43L69.88 44.26L51.04 44.26Q50.02 44.26 49.36 44.93Q48.70 45.60 48.70 46.60L48.70 55.43Q48.70 56.43 49.36 57.09Q50.02 57.76 51.04 57.76L67.54 57.76Q68.56 57.76 69.22 57.09Q69.88 56.43 69.88 55.43ZM65.21 53.09L53.36 53.09L53.36 48.93L65.21 48.93L65.21 53.09Z%22></path></svg>">
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome -->
+    <meta name="theme-color" content="#7357d9">
+
+    <!-- Social preview -->
+    <meta property="og:title" content="Safia Faiz | AI Engineer & Researcher">
+    <meta property="og:description" content="Voice-first AI systems, multi-agent LLM pipelines, and deep learning research in vision-language and explainable robotics.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://safia-faiz02.github.io/">
+    <meta property="og:image" content="https://safia-faiz02.github.io/assets/images/og.jpg">
+
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%237357d9'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle' font-family='Georgia,serif' font-size='30' font-weight='700' fill='white'%3ESF%3C/text%3E%3C/svg%3E">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Apply saved theme before paint to avoid a flash -->
+    <script>
+        try { var t = localStorage.getItem('theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+    </script>
 </head>
 <body>
 
-    <!-- Header -->
-    <header id="header" class="header">
-        <div class="container">
-            <nav class="navbar">
-                <!-- Empty div to balance the layout -->
-                <div style="width: 30px;"></div>
-    
-                <ul class="nav-menu" id="navMenu">
-                    <li><a href="#home" class="nav-link active">Home</a></li>
-                    <li><a href="#education" class="nav-link">Education</a></li>
-                    <li><a href="#experience" class="nav-link">Experience</a></li>
-                    <li><a href="#achievements" class="nav-link">Achievements</a></li>
-                    <li><a href="#hackathons" class="nav-link">Competitions</a></li>
-                    <li><a href="#projects" class="nav-link">Projects</a></li>
-                    <li><a href="#skills" class="nav-link">Skills</a></li>
-                    <li><a href="#volunteer" class="nav-link">Volunteer</a></li>
-                    <li><a href="#courses" class="nav-link">Courses</a></li>
-                    <li><a href="#webinars" class="nav-link">Webinars</a></li>
-                    <li><a href="#articles" class="nav-link">Articles</a></li>
-                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
+<!-- ================= Header ================= -->
+<header class="header" id="header">
+    <div class="container nav">
+        <a href="#home" class="logo" aria-label="Safia Faiz — home">
+            <span class="logo-mark">SF</span>
+            <span class="logo-text">Safia Faiz</span>
+        </a>
+
+        <nav class="nav-menu" id="navMenu" aria-label="Main">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#research" class="nav-link">Research</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#teaching" class="nav-link">Teaching</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+            <a href="assets/cv.pdf" target="_blank" rel="noopener" class="btn btn-sm btn-primary nav-cv">CV</a>
+            <button class="icon-btn nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </div>
+</header>
+
+<main>
+
+<!-- ================= Hero ================= -->
+<section id="home" class="hero">
+    <div class="container hero-grid">
+        <div class="hero-text">
+            <p class="eyebrow"><span class="dot"></span> Open to graduate study &amp; AI engineering roles</p>
+            <h1>Safia Faiz</h1>
+            <p class="hero-role">AI Engineer &amp; Researcher</p>
+            <p class="hero-lead">
+                I build voice-first AI systems, self-correcting multi-agent LLM pipelines, and deep learning models
+                for accessibility and robotics. I'm drawn to <strong>interdisciplinary AI</strong>, where language,
+                vision, and sensing meet real-world problems, and I like systems I can test, explain, and trust.
+            </p>
+
+            <div class="hero-cta">
+                <a href="assets/cv.pdf" target="_blank" rel="noopener" class="btn btn-primary"><i class="fas fa-file-arrow-down"></i> Download CV</a>
+                <a href="#research" class="btn btn-ghost"><i class="fas fa-flask"></i> View Research</a>
+                <a href="#contact" class="btn btn-ghost"><i class="fas fa-paper-plane"></i> Get in touch</a>
+            </div>
+
+            <ul class="socials" aria-label="Profiles">
+                <li><a href="https://www.linkedin.com/in/safiaa02/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://github.com/safia-faiz02" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.researchgate.net/profile/Safia-Faiz" target="_blank" rel="noopener" aria-label="ResearchGate"><i class="fab fa-researchgate"></i></a></li>
+                <li><a href="https://www.kaggle.com/safiafaiz" target="_blank" rel="noopener" aria-label="Kaggle"><i class="fab fa-kaggle"></i></a></li>
+                <li><a href="https://huggingface.co/safiaa02" target="_blank" rel="noopener" aria-label="Hugging Face"><span class="hf">🤗</span></a></li>
+                <li><a href="https://safiaa02.medium.com/" target="_blank" rel="noopener" aria-label="Medium"><i class="fab fa-medium"></i></a></li>
+                <li><a href="mailto:sf.safiafaiz@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="hero-photo">
+            <div class="photo-frame">
+                <img src="assets/images/profile.jpg" alt="Portrait of Safia Faiz" width="896" height="936">
+            </div>
+            <div class="float-card fc-1">
+                <i class="fas fa-graduation-cap"></i>
+                <div><strong>3.83 / 4.00</strong><span>CGPA · Distinction</span></div>
+            </div>
+            <div class="float-card fc-2">
+                <i class="fas fa-chalkboard-user"></i>
+                <div><strong>Section Leader</strong><span>Stanford Code in Place '26</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <ul class="stats">
+            <li><strong>2</strong><span>Research preprints</span></li>
+            <li><strong>300+</strong><span>Engineers trained in GenAI</span></li>
+            <li><strong>500+</strong><span>Learners helped with IELTS</span></li>
+            <li><strong>Top 16%</strong><span>of a batch of 152</span></li>
+        </ul>
+    </div>
+</section>
+
+<!-- ================= About ================= -->
+<section id="about" class="section">
+    <div class="container">
+        <div class="section-head">
+            <p class="kicker">01 · About</p>
+            <h2>Engineer by training, researcher by curiosity</h2>
+            <p class="section-sub">
+                I am an AI Engineer at Astrik, where I build on-prem voice AI, and before that I was a Research Assistant
+                working on vision-language and explainable robotics. I graduated with distinction in Computer Systems
+                Engineering from NED University, and I spend a lot of my spare time teaching.
+            </p>
+        </div>
+
+        <div class="about-grid">
+            <article class="card about-card reveal">
+                <div class="about-icon"><i class="fas fa-microscope"></i></div>
+                <h3>Research interests</h3>
+                <ul class="check-list">
+                    <li><strong>Vision-language models</strong> for low-resource languages (Urdu image captioning)</li>
+                    <li><strong>Explainable AI</strong> for robot navigation using LiDAR-IMU sensing and LLM explanations</li>
+                    <li><strong>Reliable LLM agents</strong>: citation validation, self-reflection, hallucination checks</li>
+                    <li><strong>Assistive technology</strong> and speech interfaces for accessibility</li>
                 </ul>
-    
-                <div class="nav-toggle" id="navToggle">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </nav>
+            </article>
+            <article class="card about-card reveal">
+                <div class="about-icon"><i class="fas fa-gears"></i></div>
+                <h3>What I build</h3>
+                <ul class="check-list">
+                    <li><strong>Voice AI</strong> with WebRTC, Whisper STT, Piper TTS, Deepgram, and Twilio</li>
+                    <li><strong>Agentic pipelines</strong> with LangGraph, RAG, and vector search</li>
+                    <li><strong>Production backends</strong> with FastAPI, n8n, Docker, PostgreSQL, CI, and tests</li>
+                    <li><strong>Data &amp; ML pipelines</strong> with PyTorch, TensorFlow, SQL, and ETL</li>
+                </ul>
+            </article>
         </div>
-    </header>
+    </div>
+</section>
 
-    <!-- Home Section -->
-    <section id="home" class="section home">
-        <div class="container">
-            <div class="home-content">
-                <div class="profile">
-                    <div class="profile-image">
-                        <img src="assets/images/profile.jpg" alt="Safia Faiz">
-                    </div>
-                </div>
-                <div class="intro">
-                    <h1>Safia Faiz</h1>
-                    <h2>Computer Systems Engineer</h2>
-                    <p>A passionate Hardware and GenAI Enthusiast and AI/ML Practitioner, blending hardware expertise with a passion for developing innovative AI and machine learning solutions.</p>
-                    <div class="cta-buttons">
-                        <a href="#contact" class="btn">Contact Me</a>
-                        <a href="#achievements" class="btn">View Achievements</a>
-                        <a href="assets/cv.pdf" target="_blank" class="btn" rel="noopener noreferrer">Download CV</a>
-                    </div>
-                </div>
-            </div>
+<!-- ================= Research ================= -->
+<section id="research" class="section section-alt">
+    <div class="container">
+        <div class="section-head">
+            <p class="kicker">02 · Research</p>
+            <h2>Publications</h2>
         </div>
-    </section>
 
-    <!-- Education Section -->
-    <section id="education" class="section education">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Education</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="education-content">
-                <div class="education-item">
-                    <div class="education-info">
-                        <h3>NED University of Engineering and Technology</h3>
-                        <p class="degree">Bachelor of Engineering - Computer Systems</p>
-                        <p class="duration">Oct 2020 - Aug 2024</p>
-                        <p class="gpa">CGPA: 3.829/4.000</p>
-                        <p class="minor">Minor: Computer Vision, Project Management, Machine Learning</p>
-                        <a href="https://www.neduet.edu.pk/" target="_blank" class="link">University Website <i class="fas fa-external-link-alt"></i></a>
-                    </div>
+        <div class="pub-list">
+            <article class="card pub reveal">
+                <div class="pub-meta"><span class="badge">Preprint</span><span class="pub-year">2025</span></div>
+                <h3>XAI-Robot: An Explainable ROS2 Navigation Framework Integrating LiDAR-IMU Sensing with LLM-Based Natural Language Explanations</h3>
+                <p class="authors"><strong>Faiz, Safia</strong> · Rizvi, Syed · Fatima, Zainab</p>
+                <div class="links">
+                    <a href="https://github.com/safia-faiz02/XAI-Robot/blob/main/XAI-Robot.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
+                    <a href="https://github.com/safia-faiz02/XAI-Robot" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
                 </div>
-            </div>
+            </article>
+
+            <article class="card pub reveal">
+                <div class="pub-meta"><span class="badge">Preprint</span><span class="pub-year">2025</span></div>
+                <h3>Deep Learning Based Urdu Image Captioning and Auditory Aid for Visually Impaired</h3>
+                <p class="authors">Rizvi, Syed · Yameen, Aleena · <strong>Faiz, Safia</strong> · Faisal, Sunyah</p>
+                <div class="links">
+                    <a href="https://github.com/safia-faiz02/Urdu-Image-Captioning-System-with-Auditory-Aid-for-Visually-Impaired/blob/main/Documentation/Preprint.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Paper</a>
+                    <a href="https://github.com/safia-faiz02/Urdu-Image-Captioning-System-with-Auditory-Aid-for-Visually-Impaired" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://www.kaggle.com/datasets/safiafaiz/images" target="_blank" rel="noopener"><i class="fas fa-database"></i> Dataset</a>
+                </div>
+            </article>
         </div>
-    </section>
+        <p class="more-link"><a href="https://www.researchgate.net/profile/Safia-Faiz" target="_blank" rel="noopener">See my ResearchGate profile <i class="fas fa-arrow-right"></i></a></p>
+    </div>
+</section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="section experience">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Work Experience</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-icon">
-                        <i class="fas fa-microchip"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>DreamBig Semiconductors Inc.</h3>
-                        <span class="job-title">Jr. Hardware Engineer</span>
-                        <span class="duration">Aug 2024 - Jan 2025</span>
-                        <p>Conducted block-level and full data path chip-level verification using UVM and specified protocols.</p>
-                        <div class="tech-stack">
-                            <span>SystemVerilog</span>
-                            <span>UVM</span>
-                            <span>AMBA AXI4 & ACE5-Lite</span>
-                            <span>Synopsys Tools</span>
-                            <span>RTL Verification</span>
-                            <span>Git</span>
-                            <span>Linux</span>
-                            <span>ModelSim</span>
-                            <span>CXL Verification IP</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-icon">
-                        <i class="fas fa-microchip"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>DreamBig Semiconductors Inc.</h3>
-                        <span class="job-title">Trainee Hardware Engineer</span>
-                        <span class="duration">Jun 2024 - Jul 2024</span>
-                        <p>Trained in RTL design (sequential & combinational circuits, FSMs) and UVM fundamentals, including UVM environment building for a dummy block.</p>
-                        <div class="tech-stack">
-                            <span>SystemVerilog</span>
-                            <span>UVM</span>
-                            <span>Synopsys Tools</span>
-                            <span>Git</span>
-                            <span>Linux</span>
-                            <span>ModelSim</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-icon">
-                        <i class="fas fa-chart-bar"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>Data Science Dojo</h3>
-                        <span class="job-title">Analytics Content Engineer Intern</span>
-                        <span class="duration">Feb 2023 - May 2023</span>
-                        <p>Developed learning content and assessments from technical specs with team collaboration. Researched trends in Data Analytics, Data Science, ML, and AI.</p>
-                        <div class="tech-stack">
-                            <span>Python</span>
-                            <span>Web Content Writing</span>
-                            <span>Pandas</span>
-                            <span>Scikit-Learn</span>
-                            <span>NumPy</span>
-                            <span>Machine Learning</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!-- ================= Experience ================= -->
+<section id="experience" class="section">
+    <div class="container">
+        <div class="section-head">
+            <p class="kicker">03 · Experience</p>
+            <h2>Where I've worked</h2>
         </div>
-    </section>
 
-    <!-- Achievements Section -->
-    <section id="achievements" class="section achievements">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Achievements</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="achievements-content">
-                <div class="achievement-item">
-                    <div class="achievement-icon">
-                        <i class="fas fa-medal"></i>
+        <ol class="timeline">
+            <li class="tl-item reveal">
+                <div class="tl-dot"><i class="fas fa-robot"></i></div>
+                <article class="card tl-card">
+                    <header class="tl-head">
+                        <div>
+                            <h3>AI Engineer</h3>
+                            <p class="org"><a href="https://www.astrik.com/" target="_blank" rel="noopener">Astrik</a> · Onsite, Karachi</p>
+                        </div>
+                        <span class="date current">Aug 2026 – Present</span>
+                    </header>
+                    <ul class="bullets">
+                        <li>Built an <strong>on-prem, voice-first AI screening system</strong> (WebRTC, Whisper STT, Piper TTS, LLM-driven adaptive questioning) that runs structured candidate interviews without any candidate audio leaving the network.</li>
+                        <li>Designed an <strong>end-to-end video generation pipeline</strong> (script → slides → TTS narration → lip-synced video) on Kaggle GPUs, with pluggable LLM backends, dependency preflight diagnostics, and content-hash caching.</li>
+                        <li>Architected an <strong>automated phone-screening pipeline</strong> (n8n, FastAPI, Deepgram Voice Agent API, Twilio). A frozen data contract separates orchestration from calling logic, and a <strong>76-test suite</strong> validates it at no cost.</li>
+                    </ul>
+                    <div class="tags"><span>WebRTC</span><span>Whisper</span><span>Piper TTS</span><span>LLMs</span><span>FastAPI</span><span>n8n</span><span>Deepgram</span><span>Twilio</span></div>
+                </article>
+            </li>
+
+            <li class="tl-item reveal">
+                <div class="tl-dot"><i class="fas fa-flask"></i></div>
+                <article class="card tl-card">
+                    <header class="tl-head">
+                        <div>
+                            <h3>Research Assistant</h3>
+                            <p class="org"><a href="https://sisllcus.com/" target="_blank" rel="noopener">Smart Integrated Solutions-US LLC</a> · Hybrid, Karachi</p>
+                        </div>
+                        <span class="date">Jan 2025 – Aug 2026</span>
+                    </header>
+                    <ul class="bullets">
+                        <li>Built data pipelines for two deep learning papers: collected, cleaned, annotated, and <strong>translated MS COCO and Flickr30k into Urdu</strong> to produce training-ready data.</li>
+                        <li>Designed novel architectures across NLP, computer vision, and explainable AI, including multi-sensor <strong>LiDAR/IMU processing in ROS2</strong> with LLM-based explanations.</li>
+                        <li>Co-authored <strong>2 preprints (2025)</strong> in multi-author teams, with reproducible, publication-ready results.</li>
+                    </ul>
+                    <div class="tags"><span>PyTorch</span><span>TensorFlow</span><span>ROS2</span><span>LiDAR / IMU</span><span>Vision-Language</span><span>XAI</span></div>
+                </article>
+            </li>
+
+            <li class="tl-item reveal">
+                <div class="tl-dot"><i class="fas fa-microchip"></i></div>
+                <article class="card tl-card">
+                    <header class="tl-head">
+                        <div>
+                            <h3>Jr. Hardware Engineer</h3>
+                            <p class="org"><a href="https://dreambigsemi.com/" target="_blank" rel="noopener">DreamBig Semiconductors Inc.</a> · Onsite, Karachi</p>
+                        </div>
+                        <span class="date">Aug 2024 – Jan 2025</span>
+                    </header>
+                    <ul class="bullets">
+                        <li>Conducted block-level and full data-path chip-level verification using UVM and AMBA protocols.</li>
+                    </ul>
+                    <div class="sub-role">
+                        <div class="sub-role-head"><h4>Trainee Hardware Engineer</h4><span class="date">Jun 2024 – Jul 2024</span></div>
+                        <p>Trained in RTL design (sequential and combinational circuits, FSMs) and UVM fundamentals, including building a UVM environment for a dummy block.</p>
                     </div>
-                    <div class="achievement-info">
-                        <h3>Achieved Distinction in Bachelors</h3>
-                        <p>Placed within the top 16% of 152 students in my batch.</p>
-                    </div>
-                </div>
-                <div class="achievement-item">
-                    <div class="achievement-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <div class="achievement-info">
-                        <h3>Generative AI Mentor @ PEC</h3>
-                        <p>Guided over 300 PEC-registered engineers in creating real-world engineering applications using Generative AI.</p>
-                        <a href="https://www.linkedin.com/posts/safiaa02_pec-generative-ai-training-course-cohort-activity-7323104675367387137-gh4z?utm_source=share&utm_medium=member_desktop&rcm=ACoAADX_XyUBTesmUx_RNYPUuV9ctShrKCliegY" class="cert-link"><i class="fas fa-file-alt"></i> View LinkedIn Post</a>
-                    </div>
-                </div>
-                <div class="achievement-item">
-                    <div class="achievement-icon">
-                        <i class="fas fa-trophy"></i>
-                    </div>
-                    <div class="achievement-info">
-                        <h3>CS50x Puzzle Day 2025</h3>
-                        <p>Solved 9/9 puzzles in a logical puzzle competition conducted by Harvard University.</p>
-                        <a href="#" class="cert-link"><i class="fas fa-certificate"></i> View Certificate</a>
-                    </div>
-                </div>
-                <div class="achievement-item">
-                    <div class="achievement-icon">
-                        <i class="fas fa-medal"></i>
-                    </div>
-                    <div class="achievement-info">
-                        <h3>"Best Use of CAMEL-AI" Award</h3>
-                        <p>Received at the Fall In Love With DeepSeek Hackathon by Lablab.ai.</p>
-                        <a href="#" class="cert-link"><i class="fas fa-medal"></i> View Award</a>
-                    </div>
-                </div>
-                <div class="achievement-item">
-                    <div class="achievement-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <div class="achievement-info">
-                        <h3>IELTS Academic</h3>
-                        <p>Overall band score of 7.5 (L: 8.5, R: 7.5, S: 7.5, W: 6.5).</p>
-                        <a href="#" class="cert-link"><i class="fas fa-file-alt"></i> View Test Report</a>
-                    </div>
-                </div>
-                <div class="achievement-item">
-                    <div class="achievement-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <div class="achievement-info">
-                        <h3>LeetCode Problem Solving</h3>
-                        <p>Solved 40+ LeetCode problems while mentoring beginners in programming and problem-solving.</p>
-                        <a href="#" class="cert-link"><i class="fas fa-code"></i> View Profile</a>
-                    </div>
-                </div>
-            </div>
+                    <div class="tags"><span>SystemVerilog</span><span>UVM</span><span>AXI4</span><span>ACE5-Lite</span><span>CXL VIP</span><span>ModelSim</span><span>Linux</span></div>
+                </article>
+            </li>
+
+            <li class="tl-item reveal">
+                <div class="tl-dot"><i class="fas fa-chart-column"></i></div>
+                <article class="card tl-card">
+                    <header class="tl-head">
+                        <div>
+                            <h3>Analytics Content Engineer Intern</h3>
+                            <p class="org"><a href="https://datasciencedojo.com/" target="_blank" rel="noopener">Data Science Dojo</a> · Remote</p>
+                        </div>
+                        <span class="date">Feb 2023 – May 2023</span>
+                    </header>
+                    <ul class="bullets">
+                        <li>Developed learning content and assessments from technical specs with the team (<a href="https://datasciencedojo.com/blog/histograms-beginners-guide/" target="_blank" rel="noopener">sample work</a>).</li>
+                        <li>Researched trends in data analytics, data science, ML, and AI.</li>
+                    </ul>
+                    <div class="tags"><span>Python</span><span>Technical Content Writing</span><span>Web Content Writing</span></div>
+                </article>
+            </li>
+        </ol>
+    </div>
+</section>
+
+<!-- ================= Projects ================= -->
+<section id="projects" class="section section-alt">
+    <div class="container">
+        <div class="section-head">
+            <p class="kicker">04 · Projects</p>
+            <h2>Selected work</h2>
         </div>
-    </section>
 
-    <!-- International Competitions & Hackathons -->
-    <section id="hackathons" class="section hackathons">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">International Competitions & Hackathons</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="hackathons-content">
+        <div class="project-grid">
+            <article class="card project featured reveal">
+                <div class="project-top">
+                    <span class="badge badge-accent"><i class="fas fa-star"></i> Featured</span>
+                    <a href="https://github.com/safia-faiz02/PaperPilotAI" target="_blank" rel="noopener" class="icon-link" aria-label="PaperPilot code"><i class="fab fa-github"></i></a>
+                </div>
+                <h3>PaperPilot: Multi-Agent Literature Review Platform</h3>
+                <p>A full-stack platform that searches arXiv, embeds papers locally, and writes <strong>citation-backed literature reviews</strong>. A self-correcting LangGraph pipeline (supervisor → synthesize → reflect) checks every generated citation against its source and retries when it finds a hallucinated one.</p>
+                <ul class="mini-points">
+                    <li><i class="fas fa-shield-halved"></i> JWT auth with rotating refresh tokens and per-user data isolation</li>
+                    <li><i class="fas fa-vial-circle-check"></i> 26 automated tests plus GitHub Actions CI and a Docker build check</li>
+                    <li><i class="fas fa-gauge-high"></i> Prometheus metrics, LangSmith tracing, and Docker Compose setup</li>
+                </ul>
+                <div class="tags"><span>LangGraph</span><span>fastembed</span><span>arXiv API</span><span>JWT</span><span>Docker</span><span>Prometheus</span></div>
+            </article>
 
-                <div class="hackathon-item">
-                    <h3>Gen AI Intensive Course Capstone</h3>
-                    <p class="organization">Kaggle, Google</p>
-                    <div class="project-info">
-                        <p class="project-title">Project: IELTS Academic Writing Chatbot</p>
-                        <ul class="project-details">
-                            <li>Developed an AI-powered IELTS Writing Assistant using Gemini 1.5 Flash and ChromaDB to deliver band score predictions, personalized feedback, and high-scoring sample answers through few-shot prompting.</li>
-                            <li>Integrated memory retrieval using SentenceTransformers and ChromaDB to compare user inputs with previous attempts and generate context-aware feedback.</li>
-                            <li>Designed a clean and user-friendly Gradio interface with interactive features including task selection, structured feedback toggles, and Markdown-rendered outputs.</li>
-                        </ul>
-                        <div class="project-buttons">
-                            <a href="https://www.kaggle.com/code/safiafaiz/ielts-academic-writing-chatbot" class="btn btn-primary">View Project</a>
-                        </div>
-                    </div>
+            <article class="card project reveal">
+                <div class="project-top">
+                    <span class="badge">Final Year Project</span>
+                    <a href="https://github.com/safia-faiz02/Urdu-Image-Captioning-System-with-Auditory-Aid-for-Visually-Impaired" target="_blank" rel="noopener" class="icon-link" aria-label="Urdu captioning code"><i class="fab fa-github"></i></a>
                 </div>
-                
-                <div class="hackathon-item">
-                    <h3>California Informatics Competition (CALICO) Spring 2025</h3>
-                    <p>Secured 393rd out of 820 teams globally in UC Berkeley’s CALICO 2025, demonstrating real-time algorithmic problem-solving under pressure.</p>
-                    <div class="project-buttons">
-                        <a href="#" class="btn btn-primary">View LinkedIn Post</a>
-                    </div>
+                <h3>Urdu Image Captioning with Auditory Aid</h3>
+                <p>Generates Urdu captions for images and speaks them aloud for visually impaired users. Transformer and encoder-decoder models (Xception, YOLOv8, LSTM/GRU) trained on MS COCO and Flickr30k translated to Urdu. The best model, a Transformer, reached a <strong>BLEU score of 0.538</strong>.</p>
+                <div class="tags"><span>PyTorch</span><span>TensorFlow</span><span>Transformers</span><span>TTS</span><span>Streamlit</span></div>
+                <div class="links">
+                    <a href="https://www.kaggle.com/datasets/safiafaiz/images" target="_blank" rel="noopener"><i class="fas fa-database"></i> Dataset</a>
+                    <a href="https://drive.google.com/file/d/1mrfSb-rlQ7yVNCj7bKZAPS5iX99iCGRe/view?usp=sharing" target="_blank" rel="noopener"><i class="fas fa-file-lines"></i> Report</a>
                 </div>
-                
-                <div class="hackathon-item">
-                    <h3>AI for Connectivity Hackathon II: Building Resilient Networks</h3>
-                    <p class="organization">Lablab.ai</p>
-                    <div class="project-info">
-                        <p class="project-title">Project: Smart Network Resource Allocation</p>
-                        <ul class="project-details">
-                            <li>Built a real-time network allocation system using SDN and machine learning.</li>
-                            <li>Predicted bandwidth demand with Facebook Prophet for optimized resource distribution.</li>
-                            <li>Designed energy-efficient SDN routing with NetworkX for dynamic load balancing.</li>
-                            <li>Detected anomalies in bandwidth usage using the IQR method.</li>
-                            <li>Developed an interactive Streamlit dashboard for real-time visualization & monitoring.</li>
-                        </ul>
-                        <div class="project-buttons">
-                            <a href="https://lablab.ai/event/ai-for-connectivity-hackathon-building-resilient-networks/byteband/smart-network-resource-allocation" class="btn btn-primary">View Project</a>
-                        </div>
-                    </div>
+            </article>
+
+            <article class="card project reveal">
+                <div class="project-top">
+                    <span class="badge">Data Engineering</span>
+                    <a href="https://github.com/safia-faiz02/KHI-Weather-Data-Engineering-Pipeline" target="_blank" rel="noopener" class="icon-link" aria-label="AQI pipeline code"><i class="fab fa-github"></i></a>
                 </div>
-                
-                <div class="hackathon-item">
-                    <h3>ULEFUSA - APTECH Generative AI Hackathon</h3>
-                    <div class="project-info">
-                        <p class="project-title">Project: Tiny Triumphs Tracker - An AI-Powered Child Development Milestone Analyzer</p>
-                        <ul class="project-details">
-                            <li>Built an AI-driven tool to assess child development milestones using FAISS vector search and Sentence Transformers.</li>
-                            <li>Created a custom dataset for RAG implementation and fine-tuned the Llama-3.3-70B model using Groq API.</li>
-                            <li>Developed an interactive Streamlit UI for user-friendly input and analysis.</li>
-                            <li>Automated PDF report generation with ReportLab for structured insights.</li>
-                            <li>Provided early growth assessments to aid parental decision-making.</li>
-                        </ul>
-                        <div class="project-buttons">
-                            <a href="https://huggingface.co/spaces/safiaa02/Tiny-Triumphs-Tracker" class="btn btn-primary">View Project</a>
-                        </div>
-                    </div>
+                <h3>Karachi AQI ETL Pipeline</h3>
+                <p>Loads hourly air-quality data from Open-Meteo into a Dockerized PostgreSQL database with idempotent upserts. Includes 10 analytical SQL queries (rolling-stddev anomalies, gaps-and-islands streaks), a root-caused data-integrity bug, and a live Streamlit dashboard.</p>
+                <div class="tags"><span>PostgreSQL</span><span>SQL</span><span>pandas</span><span>Docker</span><span>SQLAlchemy</span></div>
+            </article>
+
+            <article class="card project reveal">
+                <div class="project-top">
+                    <span class="badge">Machine Learning</span>
+                    <a href="https://github.com/safia-faiz02/Weather-Prediction" target="_blank" rel="noopener" class="icon-link" aria-label="Weather prediction code"><i class="fab fa-github"></i></a>
                 </div>
-                
-                <div class="hackathon-item">
-                    <h3>Fall In Love With DeepSeek Hackathon</h3>
-                    <p class="organization">Lablab.ai</p>
-                    <div class="project-info">
-                        <p class="project-title">Project: AI-Powered Personal Finance Assistant</p>
-                        <ul class="project-details">
-                            <li>Built a smart budgeting tool using Streamlit, Deepseek V3 (via AI/ML API), and PyMuPDF to analyze spending habits.</li>
-                            <li>Categorizes expenses with the 50/30/20 rule and zero-based budgeting for better financial control.</li>
-                            <li>Flags overspending patterns and offers AI-driven recommendations to improve savings.</li>
-                            <li>Supports PDF uploads and includes sample data for easy testing.</li>
-                        </ul>
-                        <div class="project-buttons">
-                            <a href="https://lablab.ai/event/fall-in-love-with-deepseek/shallowseekers/ai-powered-personal-finance-assistant" class="btn btn-primary">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="hackathon-item">
-                    <h3>M(IT)² Winter Tournament 2025</h3>
-                    <p>Participated in the Beginner round of this coding competition, gaining experience in problem-solving and tackling new challenges.</p>
-                    <div class="project-buttons">
-                        <a href="https://www.linkedin.com/posts/safiaa02_mit-mitinformatics-dsa-activity-7287775633068224512-7Tz8?utm_source=share&utm_medium=member_desktop&rcm=ACoAADX_XyUBTesmUx_RNYPUuV9ctShrKCliegY" class="btn btn-primary">View LinkedIn Post</a>
-                    </div>
-                </div>
-            </div>
+                <h3>Weather Analysis &amp; Prediction</h3>
+                <p>Trained and compared 12 models on historical weather data, with feature engineering and class consolidation. Best result was <strong>91.39% accuracy with XGBoost</strong>. Ships with a CLI and supports incremental learning.</p>
+                <div class="tags"><span>scikit-learn</span><span>XGBoost</span><span>Pandas</span><span>Seaborn</span></div>
+            </article>
         </div>
-    </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section projects">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Projects</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="projects-content">
-                <div class="project-item">
-                    <div class="project-info">
-                        <h3>Urdu Image Captioning System with Auditory Aid for Visually Impaired</h3>
-                        <p class="project-type">Final Year Design Project (FYDP)</p>
-                        <div class="project-details">
-                            <p><strong>Objective:</strong> Developed an AI-powered system for generating Urdu image captions for random images and converting them into audio, enhancing accessibility for visually impaired individuals.</p>
-                            
-                            <p><strong>Technologies Used:</strong> Python, TensorFlow, PyTorch, Transformers, CNNs (Xception, YOLOv8), LSTMs, GRUs, Streamlit (for UI), MS COCO & Flickr30k (translated these datasets to Urdu).</p>
-                            
-                            <p><strong>Key Contributions & Results:</strong> Developed transformer-based and encoder-decoder models for Urdu captioning, trained and fine-tuned models with BLEU evaluation, integrated text-to-speech for audio captions, handled data preprocessing including image collection and annotation and Urdu translation, assisted in frontend development, and improved caption accuracy with applications in education, healthcare, and e-commerce.</p>
-                            
-                            <div class="mt-3">
-                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Project Details</a>
-                            </div>
-                        </div>
-                    </div>
+        <!-- Hackathons -->
+        <h3 class="subsection-title" id="hackathons"><i class="fas fa-trophy"></i> International competitions &amp; hackathons</h3>
+        <div class="hack-grid">
+            <article class="card hack reveal">
+                <span class="badge badge-gold"><i class="fas fa-award"></i> Best Use of CAMEL-AI</span>
+                <h4>AI-Powered Personal Finance Assistant</h4>
+                <p class="org">Fall In Love With DeepSeek Hackathon · <a href="https://lablab.ai/" target="_blank" rel="noopener">Lablab.ai</a></p>
+                <p>Budgeting app that analyzes spending from PDFs with Deepseek V3, applying the 50/30/20 rule and zero-based budgeting, with savings recommendations and overspending alerts.</p>
+                <div class="links">
+                    <a href="https://lablab.ai/event/fall-in-love-with-deepseek/shallowseekers/ai-powered-personal-finance-assistant" target="_blank" rel="noopener">Submission</a>
+                    <a href="https://huggingface.co/spaces/ShallowSeekers/AI-Powered-Personal-Finance-Assistant/tree/main" target="_blank" rel="noopener">Code</a>
+                    <a href="https://lablab.ai/u/@safia_faiz930/cm8hbxrl7002143tv72hpqfzu" target="_blank" rel="noopener">Certificate</a>
                 </div>
-            </div>
+            </article>
+            <article class="card hack reveal">
+                <span class="badge">Kaggle × Google</span>
+                <h4>IELTS Academic Writing Chatbot</h4>
+                <p class="org"><a href="https://www.kaggle.com/competitions/gen-ai-intensive-course-capstone-2025q1" target="_blank" rel="noopener">Gen AI Intensive Course Capstone</a></p>
+                <p>Gemini 1.5 Flash writing coach that predicts band scores, gives few-shot feedback, and uses ChromaDB memory to compare each answer with your earlier attempts. Built with a Gradio UI.</p>
+                <div class="links">
+                    <a href="https://www.kaggle.com/code/safiafaiz/ielts-academic-writing-chatbot" target="_blank" rel="noopener">Code</a>
+                    <a href="https://safiaa02.medium.com/how-i-used-google-gemini-to-build-an-ielts-academic-writing-coach-0fe20cceae6b" target="_blank" rel="noopener">Article</a>
+                </div>
+            </article>
+            <article class="card hack reveal">
+                <span class="badge">ULEFUSA × APTECH</span>
+                <h4>Tiny Triumphs Tracker</h4>
+                <p class="org">Generative AI Hackathon</p>
+                <p>Child-development milestone analyzer built on FAISS, Sentence Transformers, and a fine-tuned Llama-3.3-70B via Groq. Uses a custom RAG dataset and generates PDF reports automatically.</p>
+                <div class="links">
+                    <a href="https://huggingface.co/spaces/safiaa02/Tiny-Triumphs-Tracker" target="_blank" rel="noopener">Live demo &amp; code</a>
+                </div>
+            </article>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section skills">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Technical Skills</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="skills-content">
-                <div class="skill-category">
-                    <h3><i class="fas fa-code"></i> Languages</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">Python</span>
-                        <span class="skill-item">SQL</span>
-                        <span class="skill-item">Verilog</span>
-                        <span class="skill-item">SystemVerilog</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3><i class="fas fa-chart-line"></i> Data Analysis</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">NumPy</span>
-                        <span class="skill-item">Pandas</span>
-                        <span class="skill-item">Matplotlib.pyplot</span>
-                        <span class="skill-item">Seaborn</span>
-                        <span class="skill-item">Plotly</span>
-                        <span class="skill-item">MS Excel</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3><i class="fas fa-desktop"></i> Frontend</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">Streamlit</span>
-                        <span class="skill-item">Gradio</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3><i class="fas fa-brain"></i> AI & ML</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">Scikit-Learn</span>
-                        <span class="skill-item">Keras</span>
-                        <span class="skill-item">Tensorflow</span>
-                        <span class="skill-item">ANN</span>
-                        <span class="skill-item">OpenCV</span>
-                        <span class="skill-item">CNN</span>
-                        <span class="skill-item">RNN</span>
-                        <span class="skill-item">Transformers</span>
-                        <span class="skill-item">LLM</span>
-                        <span class="skill-item">RAG</span>
-                        <span class="skill-item">AI Agents</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3><i class="fas fa-microchip"></i> Hardware</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">FPGA (Xilinx)</span>
-                        <span class="skill-item">UVM</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3><i class="fas fa-cloud"></i> Cloud Computing</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">AWS (Learning)</span>
-                        <span class="skill-item">Docker (Basics)</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-code-branch"></i> Version Control</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">Git</span>
-                        <span class="skill-item">GitLab</span>
-                        <span class="skill-item">GitHub</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3><i class="fas fa-laptop-code"></i> IDEs</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">VSCode</span>
-                        <span class="skill-item">PyCharm</span>
-                        <span class="skill-item">Jupyter Notebook</span>
-                        <span class="skill-item">Google Colab</span>
-                        <span class="skill-item">MATLAB</span>
-                        <span class="skill-item">ModelSim</span>
-                        <span class="skill-item">Vivado</span>
-                    </div>
-                </div>
-            </div>
+<!-- ================= Education & Achievements ================= -->
+<section id="education" class="section">
+    <div class="container">
+        <div class="section-head">
+            <p class="kicker">05 · Education &amp; Honors</p>
+            <h2>Academic record</h2>
         </div>
-    </section>
 
-    <!-- Volunteer Experience Section -->
-    <section id="volunteer" class="section volunteer">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Volunteer Experience</h2>
-                <div class="underline"></div>
+        <article class="card edu reveal">
+            <div class="edu-logo"><i class="fas fa-building-columns"></i></div>
+            <div class="edu-body">
+                <div class="edu-head">
+                    <div>
+                        <h3><a href="https://www.neduet.edu.pk/" target="_blank" rel="noopener">NED University of Engineering &amp; Technology</a></h3>
+                        <p class="org">Bachelor of Engineering, Computer Systems · Karachi, Pakistan</p>
+                    </div>
+                    <span class="date">Oct 2020 – Aug 2024</span>
+                </div>
+                <div class="edu-facts">
+                    <div><span>CGPA</span><strong>3.829 / 4.000</strong></div>
+                    <div><span>Honors</span><strong>Distinction, top 16% of 152</strong></div>
+                </div>
+                <p class="minor"><strong>Minors:</strong> Computer Vision · Machine Learning · Project Management</p>
             </div>
-            <div class="volunteer-content">
-                <div class="volunteer-item">
-                    <div class="volunteer-info">
-                        <h3>The CIS Community, NEDUET</h3>
-                        <p class="position">Co-Founder</p>
-                        <p class="duration">Mar 2024 - Present</p>
-                        <ul class="volunteer-details">
-                            <li>Launched a student-led initiative fostering academic, career, and international education guidance for CIS students and alumni.</li>
-                            <li>Built a mentorship ecosystem connecting current students with successful CIS alumni.</li>
-                            <li>Spearheaded sessions on GPA improvement, career planning, and master's application strategies.</li>
-                            <li>Designed and implemented a centralized registration system to streamline student onboarding.</li>
-                            <li>Led Q&A forums, resource curation, and personalized mentorship support, contributing to a culture of shared growth and expertise.</li>
-                        </ul>
-                        <a href="https://www.linkedin.com/company/cis-community-neduet/posts/?feedView=all" class="project-link"><i class="fas fa-external-link-alt"></i> Community Page</a>
-                    </div>
+        </article>
+
+        <div class="honors-grid">
+            <a class="card honor reveal" href="https://www.linkedin.com/posts/safiaa02_been-afk-for-a-while-now-since-ive-been-activity-7449249099217838080-8e4k" target="_blank" rel="noopener">
+                <i class="fas fa-chalkboard-user"></i>
+                <div><h4>Section Leader, Stanford Code in Place 2026</h4><p>Selected to teach Python to learners worldwide.</p></div>
+                <i class="fas fa-arrow-up-right-from-square ext"></i>
+            </a>
+            <a class="card honor reveal" href="https://www.linkedin.com/posts/safiaa02_pec-generative-ai-training-course-cohort-activity-7323104675367387137-gh4z" target="_blank" rel="noopener">
+                <i class="fas fa-users"></i>
+                <div><h4>Guided 300+ PEC-registered engineers</h4><p>Taught them to build real-world applications with Generative AI.</p></div>
+                <i class="fas fa-arrow-up-right-from-square ext"></i>
+            </a>
+            <a class="card honor reveal" href="https://www.linkedin.com/posts/muhammad-qasim-gill_%F0%9D%97%A3%F0%9D%97%BF%F0%9D%97%BC%F0%9D%98%82%F0%9D%97%B1-%F0%9D%97%A0%F0%9D%97%BC%F0%9D%97%BA%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%81-%F0%9D%97%95%F0%9D%97%B2%F0%9D%98%80%F0%9D%98%81-%F0%9D%97%A8%F0%9D%98%80-activity-7308506167910014977-JGwp" target="_blank" rel="noopener">
+                <i class="fas fa-award"></i>
+                <div><h4>"Best Use of CAMEL-AI" award</h4><p>Fall In Love With DeepSeek Hackathon, Lablab.ai.</p></div>
+                <i class="fas fa-arrow-up-right-from-square ext"></i>
+            </a>
+            <a class="card honor reveal" href="https://www.linkedin.com/posts/safiaa02_thrilled-to-share-that-my-team-byteband-activity-7316609799633174529-2P4y" target="_blank" rel="noopener">
+                <i class="fas fa-puzzle-piece"></i>
+                <div><h4>9/9 puzzles solved, CS50x Puzzle Day 2025</h4><p>Logic puzzle competition run by Harvard University.</p></div>
+                <i class="fas fa-arrow-up-right-from-square ext"></i>
+            </a>
+            <a class="card honor reveal" href="https://drive.google.com/file/d/1bouLvPHqjg3sm58s9FNJ69HJTdrs9bsC/view?usp=sharing" target="_blank" rel="noopener">
+                <i class="fas fa-language"></i>
+                <div><h4>IELTS Academic 7.5</h4><p>Listening 8.5 · Reading 7.5 · Speaking 7.5 · Writing 6.5</p></div>
+                <i class="fas fa-arrow-up-right-from-square ext"></i>
+            </a>
+            <a class="card honor reveal" href="https://youtube.com/playlist?list=PLNby30c6s_DyupKC_C_iRnoppEx2f2l35" target="_blank" rel="noopener">
+                <i class="fas fa-code"></i>
+                <div><h4>LeetCode mentoring</h4><p>Solved problems live while mentoring beginners in problem-solving.</p></div>
+                <i class="fas fa-arrow-up-right-from-square ext"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ================= Teaching & Leadership ================= -->
+<section id="teaching" class="section section-alt">
+    <div class="container">
+        <div class="section-head">
+            <p class="kicker">06 · Teaching &amp; Leadership</p>
+            <h2>Giving back</h2>
+            <p class="section-sub">Teaching is how I check my own understanding. Since 2022 I have taught, mentored, and built communities for engineers and students.</p>
+        </div>
+
+        <div class="vol-grid">
+            <article class="card vol reveal">
+                <div class="vol-head"><h3>Stanford's Code in Place</h3><span class="date">Apr 2026</span></div>
+                <p class="role">Section Leader</p>
+                <p>Taught introductory Python to students worldwide through live sessions and one-on-one guidance.</p>
+                <div class="links"><a href="https://www.linkedin.com/posts/safiaa02_been-afk-for-a-while-now-since-ive-been-activity-7449249099217838080-8e4k" target="_blank" rel="noopener">Post</a></div>
+            </article>
+
+            <article class="card vol reveal">
+                <div class="vol-head"><h3><a href="https://www.pec.org.pk/pec-profile/" target="_blank" rel="noopener">Pakistan Engineering Council</a></h3><span class="date">Apr 2025</span></div>
+                <p class="role">Course Instructor, GenAI Training Program (Cohort 2)</p>
+                <p>Led hands-on sessions for 300+ engineers, guiding them from GenAI fundamentals to their first Python AI applications for their own domains.</p>
+                <div class="links"><a href="https://youtube.com/playlist?list=PLNby30c6s_Dxrps23WsqMaFTLre5mjb3s" target="_blank" rel="noopener">YouTube playlist</a></div>
+            </article>
+
+            <article class="card vol reveal">
+                <div class="vol-head"><h3>The CIS Community, NEDUET</h3><span class="date">Mar 2024 – Present</span></div>
+                <p class="role">Co-Founder</p>
+                <p>Started a student-led mentorship network that connects CIS students with alumni. Built a central registration system and ran sessions on GPA improvement, careers, and master's applications.</p>
+                <div class="links">
+                    <a href="https://www.linkedin.com/company/cis-community-neduet/posts/?feedView=all" target="_blank" rel="noopener">LinkedIn page</a>
+                    <a href="https://youtube.com/playlist?list=PLNby30c6s_Dyga31MqxP3FPNzK5tVybkZ" target="_blank" rel="noopener">Sessions</a>
                 </div>
-                
-                <div class="volunteer-item">
-                    <div class="volunteer-info">
-                        <h3>IELTS Guide</h3>
-                        <p class="position">Volunteer Mentor</p>
-                        <p>Provided 500+ individuals with a free one-month IELTS Academic prep guide, helping them improve their scores.</p>
-                        <a href="https://www.linkedin.com/posts/safiaa02_after-sharing-my-ielts-prep-journey-on-linkedin-activity-7294779584443469827-rmGO?utm_source=share&utm_medium=member_desktop&rcm=ACoAADX_XyUBTesmUx_RNYPUuV9ctShrKCliegY" class="project-link"><i class="fas fa-external-link-alt"></i> View LinkedIn Post</a>
-                    </div>
+            </article>
+
+            <article class="card vol reveal">
+                <div class="vol-head"><h3><a href="https://icode.guru/" target="_blank" rel="noopener">iCodeGuru</a></h3><span class="date">Feb 2025 – Jul 2025</span></div>
+                <ul class="role-list">
+                    <li><strong>Course Instructor</strong> (May 2025 – Jun 2025): SQA, PM, and Python for underprivileged students. <a href="https://docs.google.com/spreadsheets/u/0/d/1t5sld3cnvPUBL__O4ee4ijUojrcRJIS0TN_3wNfzgh4/htmlview" target="_blank" rel="noopener">Courses</a></li>
+                    <li><strong>Course Moderator</strong> (Apr 2025): LeetCode patterns and DSA foundations. <a href="https://youtube.com/playlist?list=PLNby30c6s_DyupKC_C_iRnoppEx2f2l35" target="_blank" rel="noopener">Playlist</a></li>
+                    <li><strong>Moderator</strong> (Mar 2025): awareness sessions on <a href="https://www.linkedin.com/posts/fareeha-amir-241495289_%F0%9D%90%89%F0%9D%90%AE%F0%9D%90%AC%F0%9D%90%AD-%F0%9D%90%96%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%A9%F0%9D%90%A9%F0%9D%90%9E%F0%9D%90%9D-%F0%9D%90%94%F0%9D%90%A9-%F0%9D%90%9A%F0%9D%90%A7-%F0%9D%90%88%F0%9D%90%A7-activity-7308818408635088896-VrBg" target="_blank" rel="noopener">Code in Place</a>, <a href="https://www.linkedin.com/posts/ayesha-siddiqui-851291293_cs50xpuzzleday-harvardcs50-harvarduni-activity-7308524806864330753-7ix_" target="_blank" rel="noopener">CS50x Puzzle Day</a>, and <a href="https://www.linkedin.com/posts/shabbir-anjum-942495177_webinar-recap-university-of-california-activity-7309631613854752768-xCND" target="_blank" rel="noopener">CALICO</a> with MSLA SZABIST Islamabad</li>
+                    <li><strong>Guest Speaker</strong> (Feb 2025 – Jul 2025): <a href="https://www.facebook.com/watch/live/?ref=watch_permalink&amp;v=1035104875115858" target="_blank" rel="noopener">IELTS Academic tips</a>, and <a href="https://www.linkedin.com/posts/safiaa02_im-thrilled-to-share-that-i-recently-served-activity-7354307905912745984-jbUV" target="_blank" rel="noopener">GitHub &amp; Version Control</a> (iCodeGuru, MEPS, UET Lahore)</li>
+                </ul>
+            </article>
+
+            <article class="card vol reveal">
+                <div class="vol-head"><h3>IELTS Guide</h3><span class="date">Free resource</span></div>
+                <p class="role">Author &amp; Mentor</p>
+                <p>Shared a free one-month IELTS Academic prep guide with 500+ people to help them raise their scores.</p>
+                <div class="links">
+                    <a href="https://www.linkedin.com/posts/safiaa02_after-sharing-my-ielts-prep-journey-on-linkedin-activity-7294779584443469827-rmGO" target="_blank" rel="noopener">Post</a>
+                    <a href="https://www.linkedin.com/posts/safiaa02_ielts-activity-7349075767047118853-f9Ay" target="_blank" rel="noopener">Testimonials</a>
                 </div>
-                
-                <div class="volunteer-item">
-                    <div class="volunteer-info">
-                        <h3>iCodeGuru</h3>
-                        <p class="position">Course Moderator</p>
-                        <p class="duration">Apr 2025</p>
-                        <p>Moderated a course on LeetCode patterns, teaching underprivileged students through live sessions to strengthen their DSA foundations for interviews and competitive programming.</p>
-                        <a href="https://youtube.com/playlist?list=PLNby30c6s_DyupKC_C_iRnoppEx2f2l35&si=6zONlP2sA5pEb2LN" class="project-link"><i class="fas fa-external-link-alt"></i> View Course Playlist</a>
-                        <p></p>
-                        <p class="position">Webinar Moderator</p>
-                        <p class="duration">Mar 2025</p>
-                        <p>Moderated awareness sessions on Code in Place, CS50x Puzzle Day, and CALICO coding competition in collaboration with MSLA SZABIST Islamabad.</p>
-                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Webinars Playlist</a>
-                        <p></p>
-                        <p class="position">Guest Speaker</p>
-                        <p class="duration">Feb 2025</p>
-                        <p>Shared IELTS Academic exam structure and personal tips with underprivileged students.</p>
-                        <a href="https://youtube.com/playlist?list=PLNby30c6s_DzuRZ-4SmPog9rqHBwnHHgk&si=HJef1tfKwL0oPnUx" class="project-link"><i class="fas fa-external-link-alt"></i> View Sessions Playlist</a>
-                    </div>
+            </article>
+
+            <article class="card vol reveal">
+                <div class="vol-head"><h3><a href="https://gdg.community.dev/gdg-on-campus-ned-university-of-engineering-technology-karachi-pakistan/" target="_blank" rel="noopener">Google Developer Groups on Campus, NEDUET</a></h3><span class="date">Nov 2022 – Jul 2024</span></div>
+                <ul class="role-list">
+                    <li><strong>Core Team Lead, Marketing</strong> (Sept 2023 – Jul 2024): recruited the marketing team (<a href="https://www.linkedin.com/posts/safiaa02_gdsc-marketinglead-gdscneduet-activity-7117564432259444736-KjgK" target="_blank" rel="noopener">post</a>), ran social media, and promoted sessions on Gemini, SOLID, and Web Dev (<a href="https://www.linkedin.com/posts/dscneduet_googlegemini-machinelearning-gdscneduet-activity-7197571173788856320-gfjD/" target="_blank" rel="noopener">post</a>). <a href="https://drive.google.com/file/d/1KhE9MaYGh4ulB4o0D4RK1LUkhnAs8tin/view?usp=sharing" target="_blank" rel="noopener">Certificate</a></li>
+                    <li><strong>Core Team Member, Marketing</strong> (Nov 2022 – Sept 2023): promoted tech sessions such as Web3. <a href="https://drive.google.com/file/d/1fnDulYtGMKGnEYiOIdehLOuKmXPbeU9r/view?usp=sharing" target="_blank" rel="noopener">Certificate</a></li>
+                </ul>
+            </article>
+
+            <article class="card vol vol-wide reveal">
+                <div class="vol-head"><h3>Brand Ambassador</h3><span class="date">2022 – 2023</span></div>
+                <div class="amb-grid">
+                    <div><strong><a href="https://www.spaceappschallenge.org/" target="_blank" rel="noopener">NASA Space Apps 2022</a></strong><span>60–65 participants recruited single-handedly</span><a href="https://drive.google.com/file/d/1dB5CZKDoBIu5JeY9SHGGvcobu29sebCz/view?usp=sharing" target="_blank" rel="noopener">Poster</a></div>
+                    <div><strong><a href="https://www.linkedin.com/company/ieeeneduet/" target="_blank" rel="noopener">ENVISION'22, IEEE NEDUET</a></strong><span>32 recruited, plus a participation analysis by university</span><a href="https://drive.google.com/file/d/1xwYL5lABExRigIcLdpsUzQ_Ywp3g_DWk/view?usp=sharing" target="_blank" rel="noopener">Poster</a></div>
+                    <div><strong><a href="https://www.linkedin.com/company/procom-fast/" target="_blank" rel="noopener">PROCOM 2023</a></strong><span>20+ recruited for CS and General competitions</span><a href="https://drive.google.com/file/d/12gqDpZrF2cN0atX3p_tcF9rEz9M_u9UB/view?usp=sharing" target="_blank" rel="noopener">Certificate</a></div>
                 </div>
-                
-                <div class="volunteer-item">
-                    <div class="volunteer-info">
-                        <h3>Google Developer Groups on Campus - NEDUET</h3>
-                        <p class="position">Core Team Lead - Marketing</p>
-                        <p class="duration">Sept 2023 - Jul 2024</p>
-                        <ul class="volunteer-details">
-                            <li>Conducted interviews to recruit members for the marketing team.</li>
-                            <li>Managed social media handles and optimized content for better reach.</li>
-                            <li>Organized and promoted online and onsite sessions on tech stacks like Gemini, SOLID, Web Development, and Software Licensing.</li>
-                        </ul>
-                        <p></p>
-                        <p class="position">Core Team Member - Marketing</p>
-                        <p class="duration">Nov 2022 - Sept 2023</p>
-                        <p>Promoted online tech sessions (such as Web3) through social media and community engagement.</p>
-                        <a href="https://gdg.community.dev/gdg-on-campus-ned-university-of-engineering-technology-karachi-pakistan/" class="project-link"><i class="fas fa-external-link-alt"></i> GDG Chapter</a>
-                    </div>
-                </div>
-                
-                <div class="volunteer-item">
-                    <div class="volunteer-info">
-                        <h3>Brand Ambassador for Multiple Events</h3>
-                        
-                        <p class="position">PROCOM 2023</p>
-                        <p class="duration">Feb 2023</p>
-                        <p>Recruited over 20 participants in this mega event's CS and General competitions module.</p>
-                        <a href="https://drive.google.com/file/d/12gqDpZrF2cN0atX3p_tcF9rEz9M_u9UB/view?usp=sharing" class="project-link"><i class="fas fa-external-link-alt"></i> View Certificate</a>
-                        <p></p>
-                        <p class="position">ENVISION'22 by IEEE NEDUET Student Branch</p>
-                        <p class="duration">Nov 2022</p>
-                        <p>Recruited 32 participants for the programming competitions module of this mega event. Performed basic data analysis on Google Sheets to conduct forensic analysis and determine which university had the highest student participation.</p>
-                        <a href="https://drive.google.com/file/d/1xwYL5lABExRigIcLdpsUzQ_Ywp3g_DWk/view?usp=sharing" class="project-link"><i class="fas fa-external-link-alt"></i> View Poster</a>
-                        <p></p>
-                        <p class="position">NASA Space Apps Challenge 2022</p>
-                        <p class="duration">Oct 2022</p>
-                        <p>Recruited 60-65 participants single-handedly, inside and outside NEDUET premises.</p>
-                        <a href="https://drive.google.com/file/d/1dB5CZKDoBIu5JeY9SHGGvcobu29sebCz/view?usp=sharing" class="project-link"><i class="fas fa-external-link-alt"></i> View Poster</a>
-                    </div>
-                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- ================= Skills & Certifications ================= -->
+<section id="skills" class="section">
+    <div class="container">
+        <div class="section-head">
+            <p class="kicker">07 · Skills</p>
+            <h2>Toolbox</h2>
+        </div>
+
+        <div class="skills-grid">
+            <div class="card skill reveal"><h3><i class="fas fa-brain"></i> AI &amp; ML</h3>
+                <div class="tags"><span>PyTorch</span><span>TensorFlow</span><span>Keras</span><span>Scikit-Learn</span><span>OpenCV</span><span>CNN / RNN</span><span>Transformers</span><span>XGBoost</span></div></div>
+            <div class="card skill reveal"><h3><i class="fas fa-diagram-project"></i> LLMs &amp; Agents</h3>
+                <div class="tags"><span>LangGraph</span><span>RAG</span><span>AI Agents</span><span>ChromaDB</span><span>FAISS</span><span>Sentence Transformers</span><span>LangSmith</span></div></div>
+            <div class="card skill reveal"><h3><i class="fas fa-microphone-lines"></i> Speech &amp; Voice</h3>
+                <div class="tags"><span>Whisper STT</span><span>Piper TTS</span><span>Deepgram</span><span>Twilio</span><span>WebRTC</span></div></div>
+            <div class="card skill reveal"><h3><i class="fas fa-server"></i> Backend &amp; MLOps</h3>
+                <div class="tags"><span>FastAPI</span><span>n8n</span><span>Docker</span><span>PostgreSQL</span><span>GitHub Actions</span><span>Prometheus</span><span>Linux</span></div></div>
+            <div class="card skill reveal"><h3><i class="fas fa-code"></i> Languages</h3>
+                <div class="tags"><span>Python</span><span>SQL</span><span>SystemVerilog</span><span>Verilog</span></div></div>
+            <div class="card skill reveal"><h3><i class="fas fa-chart-line"></i> Data</h3>
+                <div class="tags"><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Seaborn</span><span>Plotly</span><span>Streamlit</span><span>Gradio</span></div></div>
+            <div class="card skill reveal"><h3><i class="fas fa-robot"></i> Robotics</h3>
+                <div class="tags"><span>ROS2</span><span>LiDAR</span><span>IMU</span><span>MATLAB</span></div></div>
+            <div class="card skill reveal"><h3><i class="fas fa-microchip"></i> Hardware</h3>
+                <div class="tags"><span>UVM</span><span>FPGA (Xilinx)</span><span>AXI4 / ACE5-Lite</span><span>ModelSim</span><span>Vivado</span></div></div>
+        </div>
+
+        <h3 class="subsection-title" id="certifications"><i class="fas fa-certificate"></i> Certifications</h3>
+        <ul class="cert-list">
+            <li class="reveal"><a href="https://www.kaggle.com/certification/badges/safiafaiz/96" target="_blank" rel="noopener"><span>5-Day Gen AI Intensive Course</span><em>Kaggle · Google</em></a></li>
+            <li class="reveal"><a href="https://quiz.ideagist.com/ideagist-certificate?cert_hash=cf9b56c8dcf6fa4e" target="_blank" rel="noopener"><span>Generative AI Training: Instructor &amp; Hackathon Mentor</span><em>PEC · PakAngels · iCodeGuru · ASPIRE Pakistan</em></a></li>
+            <li class="reveal"><a href="https://credsverse.com/credentials/f0bf88bf-c95a-45ab-8d41-c3fe40f48099" target="_blank" rel="noopener"><span>Generative AI Training</span><em>ULEFUSA · APTECH</em></a></li>
+            <li class="reveal"><a href="https://drive.google.com/file/d/1TBd3eNt0XDBF-PSIjyWfEpwnCZz1AmQB/view?usp=sharing" target="_blank" rel="noopener"><span>Data Analyst with Python</span><em>DataCamp</em></a></li>
+            <li class="reveal"><a href="https://drive.google.com/file/d/1q0qjWms3wqySRlMAvsrwMfatBec6SXmx/view?usp=sharing" target="_blank" rel="noopener"><span>Python for Everybody Specialization</span><em>University of Michigan · Coursera</em></a></li>
+            <li class="reveal"><a href="https://drive.google.com/file/d/1qyjpmGdoVJXRFb47WrCzyoZnaAHV9QDU/view?usp=sharing" target="_blank" rel="noopener"><span>Introduction to Python for Data Science</span><em>Data Science Dojo</em></a></li>
+        </ul>
+    </div>
+</section>
+
+<!-- ================= Contact ================= -->
+<section id="contact" class="section section-alt">
+    <div class="container">
+        <div class="contact-card reveal">
+            <p class="kicker">08 · Contact</p>
+            <h2>Let's talk</h2>
+            <p>I'm open to <strong>graduate research opportunities</strong>, <strong>AI engineering roles</strong>, and collaborations on applied AI. Email is the quickest way to reach me.</p>
+            <a href="mailto:sf.safiafaiz@gmail.com" class="btn btn-primary btn-lg"><i class="fas fa-envelope"></i> sf.safiafaiz@gmail.com</a>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/safiaa02/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                <a href="https://github.com/safia-faiz02" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.researchgate.net/profile/Safia-Faiz" target="_blank" rel="noopener"><i class="fab fa-researchgate"></i> ResearchGate</a>
+                <a href="https://leetcode.com/u/safiaa02/" target="_blank" rel="noopener"><i class="fas fa-code"></i> LeetCode</a>
+                <a href="tel:+923303161369"><i class="fas fa-phone"></i> +92 330 316 1369</a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Certifications Section -->
-    <section id="certifications" class="section certifications">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Certifications</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="certifications-content">
-                <div class="certification-item">
-                    <div class="certification-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <div class="certification-info">
-                        <h3>Data Analyst with Python</h3>
-                        <p>DataCamp</p>
-                        <a href="https://drive.google.com/file/d/1TBd3eNt0XDBF-PSIjyWfEpwnCZz1AmQB/view?usp=sharing" class="cert-link"><i class="fas fa-certificate"></i> View Certificate</a>
-                    </div>
-                </div>
-                
-                <div class="certification-item">
-                    <div class="certification-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <div class="certification-info">
-                        <h3>Python for Everybody Specialization</h3>
-                        <p>University of Michigan (Coursera)</p>
-                        <a href="https://drive.google.com/file/d/1q0qjWms3wqySRlMAvsrwMfatBec6SXmx/view?usp=sharing" class="cert-link"><i class="fas fa-certificate"></i> View Certificate</a>
-                    </div>
-                </div>
-                
-                <div class="certification-item">
-                    <div class="certification-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <div class="certification-info">
-                        <h3>Introduction to Python for Data Science</h3>
-                        <p>Data Science Dojo</p>
-                        <a href="https://drive.google.com/file/d/1qyjpmGdoVJXRFb47WrCzyoZnaAHV9QDU/view?usp=sharing" class="cert-link"><i class="fas fa-certificate"></i> View Certificate</a>
-                    </div>
-                </div>
-                
-                <div class="certification-item">
-                    <div class="certification-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <div class="certification-info">
-                        <h3>ULEFUSA - APTECH Generative AI Training</h3>
-                        <p>ULEFUSA - APTECH</p>
-                        <a href="https://credsverse.com/credentials/f0bf88bf-c95a-45ab-8d41-c3fe40f48099" class="cert-link"><i class="fas fa-certificate"></i> View Certificate</a>
-                    </div>
-                </div>
+</main>
 
-                <div class="certification-item">
-                    <div class="certification-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <div class="certification-info">
-                        <h3>5-Day Gen AI Intensive Course</h3>
-                        <p>Kaggle, Google</p>
-                        <a href="https://www.kaggle.com/certification/badges/safiafaiz/96" class="cert-link"><i class="fas fa-certificate"></i> View Certificate</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<footer class="footer">
+    <div class="container footer-inner">
+        <p>&copy; <span id="year">2026</span> Safia Faiz · Karachi, Pakistan</p>
+        <a href="#home" class="to-top">Back to top <i class="fas fa-arrow-up"></i></a>
+    </div>
+</footer>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section contact">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Contact Me</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>Email</h3>
-                            <p><a href="mailto:safia.faiz2002@gmail.com">safia.faiz2002@gmail.com</a></p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>Phone</h3>
-                            <p><a href="tel:+923303161369">+92 (330) 316-1369</a></p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fab fa-linkedin"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>LinkedIn</h3>
-                            <p><a href="https://www.linkedin.com/in/safiaa02/" target="_blank">linkedin.com/in/safiaa02/</a></p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fab fa-github"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>GitHub</h3>
-                            <p><a href="https://github.com/safia-faiz02" target="_blank">github.com/safia-faiz02</a></p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-code"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>LeetCode</h3>
-                            <p><a href="https://leetcode.com/u/safiaa02/" target="_blank">leetcode.com/u/safiaa02/</a></p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-robot"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>Hugging Face</h3>
-                            <p><a href="https://huggingface.co/safiaa02" target="_blank">huggingface.co/safiaa02</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2025 Safia Faiz. All Rights Reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Back to Top Button -->
-    <a href="#" class="back-to-top" id="backToTop" aria-label="Back to top">
-        <i class="fas fa-arrow-up"></i>
-    </a>
-
-    <!-- Custom JS -->
-    <script src="js/main.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
